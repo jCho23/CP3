@@ -4,10 +4,18 @@
 //// 3) Fragility
 //// 4) Tightly Coupling 
 
+////Summary
+//// Inheritance
+////*Pros: Code re-use, easier to understand
+////*Cons: Tightly coupled, fragile, can be abused
+
 ////Composition= Any Inheritance relationship can be translated to Composition
-////*Benefits
+////*Benefits / Pros
 //// 1) Great Flexiblity
-//// 2) Eventually Loose Coupling   
+//// 2) Eventually Loose Coupling
+////*Cons
+//// 1) Hard to understand  
+
 
 using System;
 namespace CP3.AssociationClasses
