@@ -90,7 +90,15 @@ namespace CP3.Indexers
     {
         static void Main(string[] args)
         {
-            
+            ////Creating Instance of HttpCookie
+            var cookie = new HttpCookie();
+
+            ////We can store a Key/Value Pair using the Indexer
+            ////name= Key
+            ////June= Value  
+            cookie["name"] = "June";
+
+            System.Console.WriteLine(cookie["name"]);
         }
     }
 }

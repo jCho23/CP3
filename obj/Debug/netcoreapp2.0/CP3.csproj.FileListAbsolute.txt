@@ -1,0 +1,10 @@
+/Users/junecho/Projects/CP3/CP3/bin/Debug/netcoreapp2.0/CP3.deps.json
+/Users/junecho/Projects/CP3/CP3/bin/Debug/netcoreapp2.0/CP3.runtimeconfig.json
+/Users/junecho/Projects/CP3/CP3/bin/Debug/netcoreapp2.0/CP3.runtimeconfig.dev.json
+/Users/junecho/Projects/CP3/CP3/bin/Debug/netcoreapp2.0/CP3.dll
+/Users/junecho/Projects/CP3/CP3/bin/Debug/netcoreapp2.0/CP3.pdb
+/Users/junecho/Projects/CP3/CP3/obj/Debug/netcoreapp2.0/CP3.csproj.CoreCompileInputs.cache
+/Users/junecho/Projects/CP3/CP3/obj/Debug/netcoreapp2.0/CP3.AssemblyInfoInputs.cache
+/Users/junecho/Projects/CP3/CP3/obj/Debug/netcoreapp2.0/CP3.AssemblyInfo.cs
+/Users/junecho/Projects/CP3/CP3/obj/Debug/netcoreapp2.0/CP3.dll
+/Users/junecho/Projects/CP3/CP3/obj/Debug/netcoreapp2.0/CP3.pdb
