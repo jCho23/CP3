@@ -15,6 +15,14 @@ var list = new List<int>();
 list[0]= 1;
 
 ////Collection Semantics is one of the reasons for Indexers
+var cookie = new HttpCookie();
+cookie.Expire = DateTime.Today.AddDays(5);
+
+cookie["name"] = "Mosh";
+cookie.SetItem("name", "June");
+
+var name = cookie["name"];
+var name = cookie.GetItem("name");
 
 
 namespace CP3.Indexers
