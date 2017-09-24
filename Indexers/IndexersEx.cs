@@ -1,6 +1,4 @@
-﻿using System;
-
-////Indexers = A way to access elements in a calss that represents a list of values
+﻿////Indexers = A way to access elements in a calss that represents a list of values
 
 ////Demo1
 //var array = new int[5];
@@ -10,49 +8,51 @@
 
 ////Demo2
 ////Here, we have a list of int
-var list = new List<int>();
+//var list = new List<int>();
 ////Again, using a Indexer, we can access the first element in the list
-list[0]= 1;
+//list[0]= 1;
 
 ////Collection Semantics is one of the reasons for Indexers
 ////HttpCookie= A file that is sent from your browser to the WebServer upon each Request
 ////This file identifies the user and we can set those Parameters
 
 ////Here, we are creating a new Instance of the HttpCookie Class
-var cookie = new HttpCookie();
-cookie.Expire = DateTime.Today.AddDays(5);
+//var cookie = new HttpCookie();
+//cookie.Expire = DateTime.Today.AddDays(5);
 
 ////Notice that we are using the Indexer here to set the name, June
-cookie["name"] = "June";
+//cookie["name"] = "June";
 ////Without an Indexer, we have to use a SetItem like below and pass a Key and Value
-cookie.SetItem("name", "June");
+//cookie.SetItem("name", "June");
 
 ////Here, we are getting the Value of the Cookie Item with an Indexer
-var name = cookie["name"];
-var name = cookie.GetItem("name");
+//var name = cookie["name"];
+//var name = cookie.GetItem("name");
 
 
 ////How can we Declare an Indexer?
 ////An Indexer is a property so we declare it the same way 
-public string HttpCookie
-{
-    ////Here, we have a String DataType
+//public string HttpCookie
+//{
+    //////Here, we have a String DataType
     ////Instead of an Identifier, we use "this" keyword
     ////Inside the [] we have the Type of Indexer 
-    public string this [string key]
-    {
-        get{...}
-        set{...}
-    }
-}
-
+//    public string this [string key]
+//    {
+//        get{...}
+//        set{...}
+//    }
+//}
 
 namespace CP3.Indexers
 {
+    //
+
     public class IndexersEx
     {
-        public IndexersEx()
+        static void Main(string[] args)
         {
+            
         }
     }
 }
