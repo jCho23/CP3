@@ -29,10 +29,24 @@ namespace CP3.AssociationClasses
         }
     }
 
-    /// <summary>
-    /// Compositions.
-    /// </summary>
-    public Class
+    ////This Method is responsible to Migrate the Data
+    public class DBMigrator
+    {
+        ////Here, we created a Constructor and used Composition
+        private readonly Logger _logger;
+
+        public DBMigrator(Logger logger)
+        {
+            _logger = logger;
+        }
+
+        public void Migrate()
+        {
+            _logger.Log("We are Migrating...");
+        }
+    }
+
+    ////
 
 
     public class Compositions
