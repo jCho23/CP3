@@ -44,6 +44,7 @@
 //    }
 //}
 
+using System;
 using System.Collections.Generic;
 
 namespace CP3.Indexers
@@ -60,6 +61,12 @@ namespace CP3.Indexers
         ////We are using ReadOnly to ensure that all the Data on this list is protected and not lost
         ////ReadOnly= Intialize only once
         private readonly Dictionary<string, string> _dictionary;
+
+        public DateTime Expiry
+        {
+            get;
+            set;
+        }
 
         ////Intiializing Dictionary in the constructor
         public HttpCookie()
@@ -86,19 +93,19 @@ namespace CP3.Indexers
         }
 }
 
-    public class IndexersEx
-    {
-        static void Main(string[] args)
-        {
-            ////Creating Instance of HttpCookie
-            var cookie = new HttpCookie();
+    //public class IndexersEx
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        ////Creating Instance of HttpCookie
+    //        var cookie = new HttpCookie();
 
-            ////We can store a Key/Value Pair using the Indexer
-            ////name= Key
-            ////June= Value  
-            cookie["name"] = "June";
+    //        ////We can store a Key/Value Pair using the Indexer
+    //        ////name= Key
+    //        ////June= Value  
+    //        cookie["name"] = "June";
 
-            System.Console.WriteLine(cookie["name"]);
-        }
-    }
+    //        System.Console.WriteLine(cookie["name"]);
+    //    }
+    //}
 }

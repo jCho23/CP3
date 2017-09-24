@@ -6,6 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Indexers\" />
+    <Folder Include="Classes\" />
   </ItemGroup>
 </Project>
