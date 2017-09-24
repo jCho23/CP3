@@ -15,7 +15,10 @@ var list = new List<int>();
 list[0]= 1;
 
 ////Collection Semantics is one of the reasons for Indexers
-////HttpCookie= A file that is sent from your browser to the WebServer upon each Request 
+////HttpCookie= A file that is sent from your browser to the WebServer upon each Request
+////This file identifies the user and we can set those Parameters
+
+////Here, we are creating a new Instance of the HttpCookie Class
 var cookie = new HttpCookie();
 cookie.Expire = DateTime.Today.AddDays(5);
 
