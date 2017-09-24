@@ -20,10 +20,26 @@
 using System;
 namespace CP3.AssociationClasses
 {
+    ////Let's start by creating a Logger Class where we have the common functionality
+    public class Logger
+    {
+        public void Log(string message)
+        {
+            Console.WriteLine(message);
+        }
+    }
+
+    /// <summary>
+    /// Compositions.
+    /// </summary>
+    public Class
+
+
     public class Compositions
     {
-        public Compositions()
+       static void Main(string[] args)
         {
+            
         }
     }
 }
