@@ -35,6 +35,28 @@ namespace CP3.AssociationClasses
         }
     }
 
+    ////Notice that we are Inheriting from PresentationObject
+    public class Text : PresentationObject
+    {
+        public int FontSize
+        {
+            get;
+            set;
+        }
+
+        public string FontName
+        {
+            get;
+            set;
+        }
+
+        ////Method to Add HyperLink
+        public void AddHyperLink(string url)
+        {
+            Console.WriteLine("We added a Link to " + url);
+        }
+    }
+
     class Inheritances
     {
         static void Main(string[] args)
