@@ -62,22 +62,21 @@ namespace CP3.AssociationClasses
         }
     }
 
-
     public class Compositions
     {
-       static void Main(string[] args)
-        {
+       //static void Main(string[] args)
+        //{
             ////Here we need to pass the Logger Object
             ////*This is one way to do it 
-            var dbMigrator = new DBMigrator(new Logger());
+            //var dbMigrator = new DBMigrator(new Logger());
 
             ////This is the second way to pass the Logger Object
-            var logger = new Logger();
-            var installer = new Installer(logger);
+            //var logger = new Logger();
+            //var installer = new Installer(logger);
 
-            dbMigrator.Migrate();
+            //dbMigrator.Migrate();
 
-            installer.Install();
-        }
+            //installer.Install();
+        //}
     }
 }
