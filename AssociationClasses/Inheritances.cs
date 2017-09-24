@@ -59,9 +59,13 @@ namespace CP3.AssociationClasses
 
     class Inheritances
     {
-        static void Main(string[] args)
-        {
-
-        }
+        //static void Main(string[] args)
+        //{
+            ////Adding Object of Type Text
+            //var text = new Text();
+            ////Notice that "text." is Inherting the Properties of the Parent Class, PresentationObject
+            //text.Width = 100;
+            //text.Copy();
+        //}
     }
 }
