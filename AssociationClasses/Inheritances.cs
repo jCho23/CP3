@@ -4,6 +4,15 @@
 //// 2) Polymorphic behavior = 
 
 ////Syntax Inheritance Demo
+//public class PresentationObject
+//{
+    ////Common Shared Code    
+//}
+
+//public class Text:PresentationObject
+//{
+    ////Code Specific to Text 
+//}
 
 using System;
 namespace CP3.AssociationClasses
