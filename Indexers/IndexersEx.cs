@@ -22,9 +22,12 @@ list[0]= 1;
 var cookie = new HttpCookie();
 cookie.Expire = DateTime.Today.AddDays(5);
 
-cookie["name"] = "Mosh";
+////Notice that we are using the Indexer here to set the name, June
+cookie["name"] = "June";
+////Without an Indexer, we have to use a SetItem like below and pass a Key and Value
 cookie.SetItem("name", "June");
 
+////Here, we are getting the Value of the Cookie Item with an Indexer
 var name = cookie["name"];
 var name = cookie.GetItem("name");
 
