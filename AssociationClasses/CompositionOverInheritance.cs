@@ -4,7 +4,10 @@
 //// 3) Fragility
 //// 4) Tightly Coupling 
 
-
+////Composition= Any Inheritance relationship can be translated to Composition
+////*Benefits
+//// 1) Great Flexiblity
+//// 2) Eventually Loose Coupling   
 
 using System;
 namespace CP3.AssociationClasses
