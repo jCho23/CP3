@@ -14,6 +14,8 @@ var list = new List<int>();
 ////Again, using a Indexer, we can access the first element in the list
 list[0]= 1;
 
+////Collection Semantics is one of the reasons for Indexers
+
 
 namespace CP3.Indexers
 {
