@@ -32,6 +32,21 @@ var name = cookie["name"];
 var name = cookie.GetItem("name");
 
 
+////How can we Declare an Indexer?
+////An Indexer is a property so we declare it the same way 
+public string HttpCookie
+{
+    ////Here, we have a String DataType
+    ////Instead of an Identifier, we use "this" keyword
+    ////Inside the [] we have the Type of Indexer 
+    public string this [string key]
+    {
+        get{...}
+        set{...}
+    }
+}
+
+
 namespace CP3.Indexers
 {
     public class IndexersEx
