@@ -34,15 +34,17 @@
 ////An Indexer is a property so we declare it the same way 
 //public string HttpCookie
 //{
-    //////Here, we have a String DataType
-    ////Instead of an Identifier, we use "this" keyword
-    ////Inside the [] we have the Type of Indexer 
+//////Here, we have a String DataType
+////Instead of an Identifier, we use "this" keyword
+////Inside the [] we have the Type of Indexer 
 //    public string this [string key]
 //    {
 //        get{...}
 //        set{...}
 //    }
 //}
+
+using System.Collections.Generic;
 
 namespace CP3.Indexers
 {
@@ -56,7 +58,13 @@ namespace CP3.Indexers
         ////This is a Generic class with Generic Parameters which specify the Type of the Dictionary
         ////In this case, Keys are type String and the Value should also be type String 
         private Dictionary<string, string> _dictionary;
-    }
+
+        ////Intiializing Dictionary in the constructor
+        public HttpCookie()
+        {
+            _dictionary = new Dictionary<string, string>();
+        }
+}
 
     public class IndexersEx
     {
