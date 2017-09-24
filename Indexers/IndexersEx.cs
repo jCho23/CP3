@@ -5,9 +5,10 @@
 //Demo1
 //var array = new int[5];
 ////This is an Indexer
-////Noti 
-array[0]= 1;
+////Notice that we can call the first number of the Index here 
+//array[0]= 1;
 
+//Demo2
 var list = new List<int>();
 list[0]= 1;
 
