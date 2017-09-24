@@ -17,10 +17,21 @@
 using System;
 namespace CP3.AssociationClasses
 {
-    public class Inheritances
+	////Here, we are creating a Class called PresentationObject, which is the Parent Class
+    public class PresentationObject
     {
-        public Inheritances()
+        ////Defining Properties
+        public int Width { get; set; }
+        public int Height { get; set; }
+    }
+
+
+
+    class Program
+    {
+        static void Main(string[] args)
         {
+
         }
     }
 }
