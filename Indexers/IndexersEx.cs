@@ -49,12 +49,13 @@ namespace CP3.Indexers
     ////HttpCookie Class
     public class HttpCookie
     {
-        ////We need a Field to store the KeyValue pairs in the Cookie
+        ////We need a Field to store the Key and Value pairs in the Cookie
         ////Data Type we are going to use is "Dictionary"
         ////Dictionary uses a hash table to store Data and works well with Keys
 
-        ////This is a Generic class
-        private Dictionary<string, string>
+        ////This is a Generic class with Generic Parameters which specify the Type of the Dictionary
+        ////In this case, Keys are type String and the Value should also be type String 
+        private Dictionary<string, string> _dictionary;
     }
 
     public class IndexersEx
