@@ -64,6 +64,20 @@ namespace CP3.Indexers
         {
             _dictionary = new Dictionary<string, string>();
         }
+
+        ////Declaring an Indexer
+        ////The Return type is String, becuase both Key/Value Pairs are Strings 
+        public string this[string key]
+        {
+            get
+            {
+                ////Here, we are Delagating to our Dictionary
+                return _dictionary[key];
+            }
+          
+
+            set {}
+        }
 }
 
     public class IndexersEx
