@@ -16,14 +16,3 @@
 ////*Cons
 //// 1) Hard to understand  
 
-
-using System;
-namespace CP3.AssociationClasses
-{
-    public class CompositionOverInheritance
-    {
-        public CompositionOverInheritance()
-        {
-        }
-    }
-}
