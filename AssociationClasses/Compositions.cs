@@ -5,17 +5,17 @@
 ////3) A means to Loose-Coupling Apps
    
 ////Composition Syntax
-public class Installer
-{
-    //Notice that this is Private
-    private Logger _logger;
+//public class Installer
+//{
+    ////Notice that this is Private Field for Composition
+    //private Logger _logger;
 
-    //Here, the Contructor of the Installer Class returns a logger Object, which we use to Intialize the Private field above
-    public Installer(Logger logger)
-    {
-        _logger = logger;
-    }
-}
+    ////Here, the Contructor of the Installer Class returns a logger Object, which we use to Intialize the Private field above
+    //public Installer(Logger logger)
+    //{
+    //    _logger = logger;
+    //}
+//}
 
 using System;
 namespace CP3.AssociationClasses
