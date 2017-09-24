@@ -6,15 +6,9 @@
 ////How to Design Loosely Coupled?
 ////*Encapulation= Using Access Modifiers, restrict what other Classes see
 ////*Relationship between Classes
-////*Interfaces   
+////*Interfaces 
 
-using System;
-namespace CP3.AssociationClasses
-{
-    public class ClassCoupling
-    {
-        public ClassCoupling()
-        {
-        }
-    }
-}
+////Types of Relationships
+////*Inheritance
+////*Composition    
+
