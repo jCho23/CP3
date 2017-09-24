@@ -57,7 +57,9 @@ namespace CP3.Indexers
 
         ////This is a Generic class with Generic Parameters which specify the Type of the Dictionary
         ////In this case, Keys are type String and the Value should also be type String 
-        private Dictionary<string, string> _dictionary;
+        ////We are using ReadOnly to ensure that all the Data on this list is protected and not lost
+        ////ReadOnly= Intialize only once
+        private readonly Dictionary<string, string> _dictionary;
 
         ////Intiializing Dictionary in the constructor
         public HttpCookie()
@@ -72,11 +74,15 @@ namespace CP3.Indexers
             get
             {
                 ////Here, we are Delagating to our Dictionary
+                ////Internally, Dictonary stores the Key/Value Pairs and HttpCookie is a wrapper around it
                 return _dictionary[key];
             }
           
-
-            set {}
+            set 
+            {
+                ////Value is a KeyWord which represnts what is on the right side of Assignment Operator
+                _dictionary[key] = value;
+            }
         }
 }
 
