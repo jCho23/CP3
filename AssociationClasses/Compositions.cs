@@ -67,7 +67,17 @@ namespace CP3.AssociationClasses
     {
        static void Main(string[] args)
         {
-            
+            ////Here we need to pass the Logger Object
+            ////*This is one way to do it 
+            var dbMigrator = new DBMigrator(new Logger());
+
+            ////This is the second way to pass the Logger Object
+            var logger = new Logger();
+            var installer = new Installer(logger);
+
+            dbMigrator.Migrate();
+
+            installer.Install();
         }
     }
 }
